@@ -1,11 +1,11 @@
-# Extended Kalman Filter Project Starter Code
+# Extended Kalman Filter Project
 Self-Driving Car Engineer Nanodegree Program
 
-In this project you will utilize a kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. Passing the project requires obtaining RMSE values that are lower that the tolerance outlined in the project rubric.
-
-We are given noisy lidar and radar measurements. Lidar measurements are red circles, radar measurements are blue circles with an arrow pointing in the direction of the observed angle. The measurements are taken from a stationary sensor (lidar/radar). Estimation markers are green triangles produced by the Kalman filter. The video below shows what the simulator looks like when a c++ script is using its Kalman filter to track the object. The simulator provides the script the measured data (either lidar or radar), and the script feeds back the measured estimation marker, and RMSE values from its Kalman filter.
+In this project we will utilize a kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. Passing the project requires obtaining RMSE values that are lower than the tolerance outlined in the project rubric. The video below shows what the simulator looks like when a c++ script is using its Kalman filter to track the object:
 
 https://youtu.be/d6qbR3_LPoA
+
+We are given noisy lidar and radar measurements. Lidar measurements are red circles, radar measurements are blue circles with an arrow pointing in the direction of the observed angle. The measurements are taken from a stationary lidar and radar sensor. Estimation markers are green triangles produced by the Kalman filter. The simulator provides the script the measured data (either lidar or radar), and the script feeds back the measured estimation marker, and RMSE values from its Kalman filter.
 
 Below is the result of my implementation:
 
